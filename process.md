@@ -7,4 +7,5 @@
 - use express, listen : check
 - create route : check
 - install nodemon : npm i nodemon -D
+    - -D to install(download) and run nodemon only during development
 - add "start-watch": "nodemon src/index.js" in scripts in package.json
