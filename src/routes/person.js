@@ -18,5 +18,9 @@ router.get('/person/:name', (req, res) => {
     res.send(`Requested a person ${req.params.name}`);
 });
 
+router.get('/get_error', (req,res) => {
+    throw new Error('This is  forced error!!');
+});
+
 // Exporting this custom route to the directory for use
 module.exports = router;
