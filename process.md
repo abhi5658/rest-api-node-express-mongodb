@@ -1,3 +1,4 @@
+- create project folder
 - npm init -y
 - create index.js; add dummy code
 - node src/index.js
