@@ -1,0 +1,10 @@
+- npm init -y
+- create index.js; add dummy code
+- node src/index.js
+- add "start": "node src/index.js" in scripts in package.json
+- npm start OR npm run start
+- npm install express
+- use express, listen : check
+- create route : check
+- install nodemon : npm i nodemon -D
+- add "start-watch": "nodemon src/index.js" in scripts in package.json
