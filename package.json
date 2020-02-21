@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/abhi5658/rest-api-node-express-mongodb#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.9.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
