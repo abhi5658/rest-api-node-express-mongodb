@@ -1,4 +1,4 @@
-const secret = {
+let secret = {
     server : 'example.com',
     database : 'some-db',
     user : 'user',
