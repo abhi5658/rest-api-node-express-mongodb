@@ -8,7 +8,7 @@ mongoose.connect(`mongodb+srv://${secret.user}:${secret.password}@${secret.serve
 mongoose.set('useCreateIndex', true);
 mongoose.set('useFindAndModify', false);
 
-let CustomerSchema = new mongoose.Schema({
+const CustomerSchema = new mongoose.Schema({
     name: String,
     email: {
         type: String,

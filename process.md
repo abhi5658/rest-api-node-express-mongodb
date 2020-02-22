@@ -12,3 +12,4 @@
 - add "start-watch": "nodemon src/index.js" in scripts in package.json
 - install mongoose : npm i mongoose
 - install body parser: npm i body-parser
+- install now.sh CLI globally(system wide) : npm i now -g

@@ -1,6 +1,4 @@
-console.log('hello');
-
-let express = require('express');
+const express = require('express');
 const app = express();
 const PORT = 3000;
 
