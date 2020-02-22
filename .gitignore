@@ -1,3 +1,6 @@
+# Config files
+db_credential.js
+
 # Logs
 logs
 *.log
