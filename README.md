@@ -15,6 +15,7 @@
 - install nodemon : `npm i nodemon -D`
     - -D to install(download) and run nodemon only during development
 - add "start-watch": "nodemon src/index.js" in scripts in package.json
+- new cmd using nodemon : `npm run start-watch`
 - install mongoose : `npm i mongoose`
 - install body parser: `npm i body-parser`
 - install now.sh CLI globally(system wide) : `npm i now -g` [not using now.sh as it works good for serverless function]
