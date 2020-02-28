@@ -30,7 +30,7 @@
 - Get connection string
 - Edit user and password in connection string
 
-### Setting up Heroku against node project
+### Setting up Heroku app against node project
 - create heroku account
 - install heroku CLI
 - goto local project git directory
