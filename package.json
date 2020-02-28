@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "start-watch": "nodemon src/index.js",
+    "start": "node api/index.js PORT=3000",
+    "start-watch": "nodemon api/index.js PORT=3000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -13,7 +13,7 @@
     "url": "git+https://github.com/abhi5658/rest-api-node-express-mongodb.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Abhishek",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/abhi5658/rest-api-node-express-mongodb/issues"
@@ -26,5 +26,8 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
+  },
+  "engines": {
+    "node": "12.x"
   }
 }

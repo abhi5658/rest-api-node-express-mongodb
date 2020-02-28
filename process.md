@@ -1,3 +1,4 @@
+### Steps:
 - create project folder
 - npm init -y
 - create index.js; add dummy code
@@ -13,3 +14,18 @@
 - install mongoose : npm i mongoose
 - install body parser: npm i body-parser
 - install now.sh CLI globally(system wide) : npm i now -g
+- process.env.PORT added & addd PORT number in start in package.json
+
+### Setting up mongodb
+- Sign up on mongodb.com
+- New project auto-created on new cluster creation
+- Create a new Cluster
+- Select provider [preferably aws]
+- Select nearest region [Mumbai (ap-south-1)]
+- Enter cluster name
+- Create Cluster
+- Create user in Database Access tab
+- Add IP address in Network Access tab [whitelist for all if needed]
+- After cluster build success click connect
+- Get connection string
+- Edit user and password in connection string

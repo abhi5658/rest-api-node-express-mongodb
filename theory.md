@@ -62,3 +62,7 @@ Tutorial video : https://www.youtube.com/watch?v=o3ka5fYysBM
 - Reference Mongoose
 - CRUD API
 
+## Cloud Deployment : now.sh
+- Set PORT in scripts
+- Deploy to now.sh
+- Test deployment in browser / insomnia
