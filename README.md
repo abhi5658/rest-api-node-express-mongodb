@@ -1,6 +1,6 @@
 # rest-api-node-express-mongodb
 
-## Contents of [process.md](process.md)
+## Contents of [process.md](process.md) below:
 
 ### Steps:
 - create project folder
@@ -49,3 +49,13 @@
 - staging credential file back to secret branch : `git update-index --no-skip-worktree src/models/db_credential.js`
 - commit changes in secret branch
 - push secret branch to heroku master to have correct credentials to mongodb : `git push heroku secret:master` : db works correctly
+
+### package.json versioning
+- example -> "express": "^4.17.1"
+- Given a version number MAJOR.MINOR.PATCH, increment the MAJOR version when you make incompatible API changes, MINOR version when you add functionality in a backwards-compatible manner, and PATCH version when you make backwards-compatible bug fixes.
+- npm uses the tilde (~) and caret (^) to designate which patch and minor versions to use respectively.
+- So if you see ~1.0.2 it means to install version 1.0.2 or the latest patch version such as 1.0.4.
+- If you see ^1.0.2 it means to install version 1.0.2 or the latest minor or patch version such as 1.1.0.
+- Patch releases: 1.0 or 1.0.x or ~1.0.4
+- Minor releases: 1 or 1.x or ^1.0.4
+- Major releases: * or x
