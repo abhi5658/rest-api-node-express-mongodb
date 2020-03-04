@@ -59,3 +59,6 @@
 - Patch releases: 1.0 or 1.0.x or ~1.0.4
 - Minor releases: 1 or 1.x or ^1.0.4
 - Major releases: * or x
+
+### Older way of creating routes
+- [http module for Node.js server](https://blog.risingstack.com/your-first-node-js-http-server/#thehttpmoduleforyournodejsserver)
