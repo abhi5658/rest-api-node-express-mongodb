@@ -49,6 +49,12 @@
 - staging credential file back to secret branch : `git update-index --no-skip-worktree src/models/db_credential.js`
 - commit changes in secret branch
 - push secret branch to heroku master to have correct credentials to mongodb : `git push heroku secret:master` : db works correctly
+    - Changing app name and url at heroku: https://devcenter.heroku.com/articles/renaming-apps#updating-git-remotes
+    - Goto project directory with heroku logged in
+    - rename command syntax:`heroku apps:rename newname --app oldname` : `heroku apps:rename rest-api-node-abhi --app polar-ravine-43913`
+    - Update git remotes : 
+        - 1st command : `git remote rm heroku`
+        - 2nd command : `heroku git:remote -a newname`
 
 ### package.json versioning
 - example -> "express": "^4.17.1"
